@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=200&section=header&text=Gabriel%20Moreno%20Ribeiro&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Co-Founder%20%26%20COO%20%40%20HIBEEX%20%7C%20Full%20Stack%20%26%20AI%20Engineer&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=220&section=header&text=Gabriel%20Moreno%20Ribeiro&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=36&desc=Co-Founder%20%26%20COO%20%40%20HIBEEX%20%20%7C%20%20Full%20Stack%20%26%20AI%20Engineer&descAlignY=56&descSize=18" width="100%"/>
 
 <a href="https://github.com/gabrielmorenoribeiro-H">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=650&lines=Full+Stack+%26+AI+Product+Engineer;Co-Founder+%26+COO+%40+HIBEEX;LALA+%26+Funda%C3%A7%C3%A3o+Estudar+Alumni;Building+B2B+Financial+Intelligence+with+AI" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&lines=Full+Stack+%26+AI+Product+Engineer;Co-Founder+%26+COO+%40+HIBEEX;Building+B2B+Financial+Intelligence+with+AI;LALA+%26+Funda%C3%A7%C3%A3o+Estudar+Alumni;R%24800K+Pre-Seed+Backed+Founder;Ship+Fast+%C2%B7+Measure+Impact+%C2%B7+Iterate" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -34,9 +34,11 @@
 ```typescript
 const gabriel = {
   role: "Co-Founder & COO @ HIBEEX",
+  origin: "Salvador, Bahia, Brazil 🇧🇷",
   education: ["LALA — Latin America Leadership Academy", "Fundação Estudar — PREP Program"],
-  focus: ["Full Stack Engineering", "AI/ML Products", "B2B FinTech"],
-  mindset: "Product Engineering — ship fast, measure impact, iterate",
+  focus: ["Full Stack Engineering", "AI/LLM Products", "B2B FinTech"],
+  languages: ["Português (native)", "English (fluent)", "Español (reading)"],
+  mindset: "Ship fast → Measure impact → Iterate relentlessly",
 };
 ```
 
@@ -47,6 +49,22 @@ I architected and shipped the full-stack MVP end-to-end: **ERP-to-database sync 
 Beyond code, I operate with a **product engineering mindset** — I've closed enterprise partnerships, raised **R$800K in pre-seed investment**, and shipped products used by some of the largest accounting operations in Brazil.
 
 **🟣 Open To:** Software Engineering Internships · AI/ML Engineering Roles · Open Source Collaboration · Founder & VC Conversations
+
+<br/>
+
+<div align="center">
+
+### ⚡ Impact at a Glance
+
+<img src="https://img.shields.io/badge/💰_Pre--Seed_Raised-R%24800K-8B5CF6?style=for-the-badge&labelColor=1a1b27" />
+<img src="https://img.shields.io/badge/🤝_ERP_Partnership-~20K_Clients-6366F1?style=for-the-badge&labelColor=1a1b27" />
+<img src="https://img.shields.io/badge/🚀_Ventures_Founded-4-7C3AED?style=for-the-badge&labelColor=1a1b27" />
+
+<img src="https://img.shields.io/badge/🎓_Students_Impacted-3%2C463%2B-4F46E5?style=for-the-badge&labelColor=1a1b27" />
+<img src="https://img.shields.io/badge/🥇_Olympiad_Medals-39_(19_Gold)-8B5CF6?style=for-the-badge&labelColor=1a1b27" />
+<img src="https://img.shields.io/badge/📊_SAT-1510%2F1600_(Top_1%25_Brazil)-6366F1?style=for-the-badge&labelColor=1a1b27" />
+
+</div>
 
 ---
 
@@ -102,6 +120,18 @@ Beyond code, I operate with a **product engineering mindset** — I've closed en
 | **Security** | Multi-tenant authentication · Role-Based Access Control (RBAC) |
 | **Impact** | R$800K pre-seed from Canastra Ventures (2.5% acceptance) · 12% revenue-share partnership |
 | **Repository** | 🔒 Private (Proprietary) |
+
+**🏗️ System Architecture**
+
+```mermaid
+flowchart LR
+    A["🏢 Enterprise ERPs<br/>Omie · Conta Azul · Nibo · VHSYS"] -->|"Automated Sync"| B["⚙️ Ingestion Pipeline<br/>Scheduled Jobs"]
+    B --> C[("🗄️ Supabase<br/>PostgreSQL")]
+    C --> D["🔄 Reconciliation +<br/>Categorization Engine"]
+    D --> E["🧠 Claude AI<br/>Executive Narratives"]
+    E --> F["📊 Real-time<br/>KPI Dashboards"]
+    G["🔐 Multi-tenant Auth · RBAC · REST API Layer"] -.-> B & C & D & E & F
+```
 
 Built the entire MVP solo as founding engineer: ERP-to-database synchronization pipeline, transaction reconciliation and categorization engine, multi-tenant RBAC auth, REST API layer, automated ingestion jobs, Claude-powered executive narrative generator, and interactive KPI dashboard. Serving major accounting market clients including the 6th largest Sistema Domínio user in Brazil. Selected as 1 of 6 startups for Canastra Ventures' AI residency — the youngest founding team in program history. Pitching to Silicon Valley VCs in October 2026.
 
@@ -246,6 +276,21 @@ Physics education hardware for public schools.
 
 ---
 
+## 🛤️ The Journey
+
+```mermaid
+timeline
+    title From Salvador to Silicon Valley
+    2019 : Admitted to Colégio Militar de Salvador at age 10 — 1 of 30 among 2,000+ candidates
+    2021 : Founded refurbished-electronics e-commerce — 150+ clients across 21 states
+    2022 : Launched Projeto Candela — physics kits reaching 3,392 public school students
+    2023 : Chemistry research at Instituto Principia — ranked 1st of 10,000+ for IFT-UNESP
+    2025 : PREP Program Fellow (0.7% acceptance) : Founded GSAT Education : SAT 1510 — Top 1% Brazil
+    2026 : Co-founded HIBEEX : R$800K pre-seed — Canastra Ventures : Pitching Silicon Valley VCs (Oct)
+```
+
+---
+
 ## 🏆 Achievements
 
 <div align="center">
@@ -300,12 +345,21 @@ Physics education hardware for public schools.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=gabrielmorenoribeiro-H&show_icons=true&theme=tokyonight&count_private=true" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabrielmorenoribeiro-H&layout=compact&theme=tokyonight" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api?username=gabrielmorenoribeiro-H&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&count_private=true&rank_icon=github" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabrielmorenoribeiro-H&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&langs_count=8" height="170"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=gabrielmorenoribeiro-H&theme=tokyonight" height="180"/>
+<img src="https://streak-stats.demolab.com?user=gabrielmorenoribeiro-H&theme=tokyonight&hide_border=true&background=1A1B27" height="180"/>
+
+<br/><br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gabrielmorenoribeiro-H&theme=tokyonight" width="100%"/>
+
+<br/><br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=gabrielmorenoribeiro-H&theme=tokyonight&utcOffset=-3" height="180"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=gabrielmorenoribeiro-H&theme=tokyonight" height="180"/>
 
 </div>
 
@@ -315,7 +369,7 @@ Physics education hardware for public schools.
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=gabrielmorenoribeiro-H&theme=tokyonight&row=1&column=7" width="100%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=gabrielmorenoribeiro-H&theme=tokyonight&row=1&column=7&no-frame=true&margin-w=8&margin-h=8" width="100%"/>
 
 </div>
 
@@ -325,7 +379,7 @@ Physics education hardware for public schools.
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=gabrielmorenoribeiro-H&theme=tokyo-night" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=gabrielmorenoribeiro-H&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
 
 </div>
 
@@ -335,11 +389,13 @@ Physics education hardware for public schools.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/gabrielmorenoribeiro-H/gabrielmorenoribeiro-H/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gabrielmorenoribeiro-H/gabrielmorenoribeiro-H/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gabrielmorenoribeiro-H/gabrielmorenoribeiro-H/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/gabrielmorenoribeiro-H/gabrielmorenoribeiro-H/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
 
 </div>
-
-> ⚠️ A cobra só aparece depois de você configurar a GitHub Action abaixo — ela **não funciona sozinha**, precisa gerar o SVG automaticamente todo dia.
 
 ---
 
@@ -354,6 +410,7 @@ learning:
 building:
   - HIBEEX — AI-powered B2B financial intelligence platform
   - ERP integrations expansion (VHSYS partnership, ~20K clients)
+  - GSAT Education — adaptive SAT prep engine
 
 exploring:
   - AI applications in FinTech & accounting automation
@@ -364,6 +421,8 @@ open_to:
   - AI/ML Engineering Roles
   - Open Source Collaboration
   - Founder & Investor Conversations
+
+next_stop: "Silicon Valley — October 2026 🚀"
 ```
 
 ---
@@ -372,7 +431,7 @@ open_to:
 
 <div align="center">
 
-<a href="mailto:gabrielmribeiro@hibeex.com.br"><img src="https://img.shields.io/badge/Gmail-gabrielmribeiro%40hibeex.com.br-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1b27" /></a>
+<a href="mailto:gabrielmribeiro@hibeex.com.br"><img src="https://img.shields.io/badge/Email-gabrielmribeiro%40hibeex.com.br-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1b27" /></a>
 <br/>
 <a href="https://linkedin.com/in/gabriel-moreno-ribeiro"><img src="https://img.shields.io/badge/LinkedIn-gabriel--moreno--ribeiro-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1b27" /></a>
 <br/>
@@ -386,9 +445,13 @@ open_to:
 
 <div align="center">
 
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="100%"/>
+
 ### *"Ship fast. Measure impact. Iterate relentlessly."*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=120&section=footer" width="100%"/>
+
+</div>lorList=6,12,20&height=120&section=footer" width="100%"/>
 
 </div>
 
