@@ -17,17 +17,8 @@
 
 <br>
 
-<!-- gráfico de contribuições animado, atualizado diariamente pelo workflow -->
-<img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution graph" />
-
-<br>
-
-<!-- cobrinha comendo as contribuições, gerada pela Action Platane/snk -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gabrielmorenoribeiro-H/gabrielmorenoribeiro-H/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gabrielmorenoribeiro-H/gabrielmorenoribeiro-H/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/gabrielmorenoribeiro-H/gabrielmorenoribeiro-H/output/github-contribution-grid-snake.svg" width="860" />
-</picture>
+<!-- heatmap com a cobrinha embutida comendo as contribuições (SVG único, self-hosted) -->
+<img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution graph with snake eating contributions" />
 
 <br><br>
 
