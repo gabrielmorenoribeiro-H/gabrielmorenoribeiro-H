@@ -26,7 +26,23 @@
 
 <br><br>
 
-<img src="./card-stack.svg" width="860" alt="Tech stack" />
+### 🛠️ Tech Stack
+
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=ts,js,java,cpp&theme=dark" />
+
+**Frontend**
+
+<img src="https://skillicons.dev/icons?i=nextjs,react,html,css,tailwind&theme=dark" />
+
+**Backend & Databases**
+
+<img src="https://skillicons.dev/icons?i=nodejs,supabase,postgres&theme=dark" />
+
+**Cloud, DevOps & Tooling**
+
+<img src="https://skillicons.dev/icons?i=aws,git,github,vscode,latex,matlab&theme=dark" />
 
 <br><br>
 
