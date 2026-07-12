@@ -26,9 +26,21 @@
 
 <br>
 
-<img src="https://skillicons.dev/icons?i=ts,js,java,cpp,nextjs,react,html,css,tailwind&theme=dark" />
-<br>
-<img src="https://skillicons.dev/icons?i=nodejs,supabase,postgres,aws,git,github,vscode,latex,matlab&theme=dark" />
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=ts,js,java,cpp&theme=dark" />
+
+**Frontend**
+
+<img src="https://skillicons.dev/icons?i=nextjs,react,html,css,tailwind&theme=dark" />
+
+**Backend & Databases**
+
+<img src="https://skillicons.dev/icons?i=nodejs,supabase,postgres&theme=dark" />
+
+**Cloud, DevOps & Tooling**
+
+<img src="https://skillicons.dev/icons?i=aws,git,github,vscode,latex,matlab&theme=dark" />
 
 <br>
 
