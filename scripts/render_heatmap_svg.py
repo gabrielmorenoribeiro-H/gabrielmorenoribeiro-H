@@ -53,7 +53,7 @@ def random_walk(n_cols, n_rows, seed):
         return out
     for attempt in range(100):
         visited = set()
-        start = (rng.randrange(n_cols), rng.randrange(n_rows))
+        start = (0, 0)
         path = [start]
         visited.add(start)
         while len(path) < total:
@@ -177,9 +177,9 @@ def render(data):
     rng = data['range']
     ly = sep_y + 24
     parts.append(f'<text x="{PAD}" y="{ly}" font-size="13" fill="{GREEN}"><tspan font-weight="700">{tc:,}</tspan><tspan fill="{MUTED}"> contributions in the last year</tspan></text>')
-    parts.append(f'<text x="{canvas_w-PAD}" y="{ly}" font-size="12" fill="{MUTED}" text-anchor="end">{rng["start"]} &#8594; {rng["end"]}</text>')
+    parts.append(f'<text x="{canvas_w-PAD}" y="{ly}" font-size="12" fill="{MUTED}" text-anchor="end">{rng["start"]} to {rng["end"]}</text>')
     ly += 24
-    parts.append(f'<text x="{PAD}" y="{ly}" font-size="13" fill="{MUTED}">current streak <tspan fill="{ACCENT}" font-weight="700">{cs} days</tspan><tspan fill="{MUTED}">   &#183;   longest </tspan><tspan fill="{ACCENT}" font-weight="700">{ls} days</tspan></text>')
+    parts.append(f'<text x="{PAD}" y="{ly}" font-size="13" fill="{MUTED}">current streak <tspan fill="{ACCENT}" font-weight="700">{cs} days</tspan><tspan fill="{MUTED}">   |   longest </tspan><tspan fill="{ACCENT}" font-weight="700">{ls} days</tspan></text>')
     parts.append(f'<text x="{canvas_w-PAD}" y="{ly}" font-size="12" fill="{MUTED}" text-anchor="end">best day <tspan fill="{GOLD}" font-weight="700">{best["count"]}</tspan> on {best["date"]}</text>')
     parts.append('</svg>')
     return ''.join(parts)
