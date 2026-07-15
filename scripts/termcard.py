@@ -27,7 +27,7 @@ TITLEBAR_H = 30
 PAD = 20
 
 OUTDIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
-STATIC = bool(os.environ.get("STATIC"))
+STATIC = True
 
 
 def esc(s):

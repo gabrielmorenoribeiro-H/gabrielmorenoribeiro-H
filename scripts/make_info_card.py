@@ -12,7 +12,7 @@ import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "info-card.svg")
-STATIC = bool(os.environ.get("STATIC"))
+STATIC = True
 
 W, H = 480, 344
 PAD = 20
@@ -36,17 +36,17 @@ HOST = "gabriel"
 ROWS = [
     ("host",),
     ("kv", "Now", "Co-Founder & CEO @ HIBEEX"),
-    ("kv", "Focus", "Full Stack Builder · AI/LLM · B2B FinTech"),
+    ("kv", "Focus", "Full Stack Builder | AI/LLM | B2B FinTech"),
     ("kv", "Based", "Salvador, BA, Brazil / Sao Paulo, SP, Brazil"),
-    ("kv", "Fellow", "LALA · Fundacao Estudar (PREP)"),
-    ("kv", "Langs", "PT (native) · EN (advanced) · ES (basic-intermediate)"),
+    ("kv", "Fellow", "LALA | Fundacao Estudar (PREP)"),
+    ("kv", "Langs", "PT (native) | EN (advanced) | ES (basic-intermediate)"),
     ("gap",),
     ("sec", "Mission"),
     ("bul", "Solve structural problems in Brazil using"),
     ("bul", "cutting-edge technology (currently AI)"),
     ("gap",),
     ("sec", "Next"),
-    ("bul", "Pitching Silicon Valley VCs · Oct 2026"),
+    ("bul", "Pitching Silicon Valley VCs | Oct 2026"),
 ]
 
 

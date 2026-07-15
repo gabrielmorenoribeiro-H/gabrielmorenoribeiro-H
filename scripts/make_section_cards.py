@@ -105,15 +105,15 @@ VENTURES = [
       "R$50K+ revenue bootstrapped, 100% reinvested",
       "Intl partnerships: Uzbek tech firm, CT Nicolas Santos, CSA Authority"]),
     ("Projeto Candela", "Physics lab kits for public schools", "Jun 2022 - Present", GOLD,
-     ["Kits + QR video lessons in 28 schools · 3,392 students (BA & CE)",
+     ["Kits + QR video lessons in 28 schools | 3,392 students (BA & CE)",
       "Grades up 40%; physics failure rate cut 30% -> 10% in 6 months",
-      "Funded by PIBIC Jr/UFBA grant + R$8K crowdfunding · pitched at 60+ schools"]),
+      "Funded by PIBIC Jr/UFBA grant + R$8K crowdfunding | pitched at 60+ schools"]),
     ("FinTech Savings RCT", "Behavioral economics research", "Jan 2025 - Apr 2026", SECTION,
      ["Randomized Controlled Trial, n=208 public-school students",
       "+130% total savings in treatment group",
-      "Supervised by Dr. Aaron Litvin (Ph.D., Harvard) · policy recs for BNCC"]),
+      "Supervised by Dr. Aaron Litvin (Ph.D., Harvard) | policy recs for BNCC"]),
     ("Chemical Kinetics", "Computational modeling - Instituto Principia", "Jun 2023 - Jun 2025", RED,
-     ["Steady-State Approximation of complex mechanisms · 59-page thesis",
+     ["Steady-State Approximation of complex mechanisms | 59-page thesis",
       "97% simulation accuracy (Haber-Bosch, stratospheric ozone)",
       "Under Dr. Juliano Bonacin (Ph.D., USP)"]),
     ("Refurbished Electronics", "E-commerce venture", "Jan 2021 - Dec 2024", MUTED,
@@ -150,14 +150,14 @@ def card_ventures():
 
 # ============================================================ HONORS
 HONORS = [
-    ("39 Olympiad Medals (19 Gold)", "49 science olympiads · 7,000+ study hours · 2 international awards", GOLD),
+    ("39 Olympiad Medals (19 Gold)", "49 science olympiads | 7,000+ study hours | 2 international awards", GOLD),
     ("IChO National Finalist", "International Chemistry Olympiad - Brazilian selection", GREEN),
     ("Gold - National Science Olympiad", "+ Gold: ONNEQ, OBB, OMEM, OQJ, 2x ONEE, 2x Math Sans Frontieres Intl", GOLD),
-    ("SAT 1510/1600", "Math 780 (98th percentile global) · Top 1% in Brazil", GREEN),
+    ("SAT 1510/1600", "Math 780 (98th percentile global) | Top 1% in Brazil", GREEN),
     ("R$1.5M+ Merit Scholarships", "Full rides at Brazil's top 4 prep schools", CYAN),
     ("PREP Program - Fundacao Estudar", "1 of ~70 fellows from 10,000+ candidates (0.7% acceptance)", SECTION),
-    ("Canastra Ventures AI Residency", "R$800K pre-seed · 1 of 6 startups (2.5%) · youngest founding team ever", RED),
-    ("Colegio Militar de Salvador", "Admitted at age 10 (1 of 30 / 2,000+) · 'Alamar' 5 consecutive years", CYAN),
+    ("Canastra Ventures AI Residency", "R$800K pre-seed | 1 of 6 startups (2.5%) | youngest founding team ever", RED),
+    ("Colegio Militar de Salvador", "Admitted at age 10 (1 of 30 / 2,000+) | 'Alamar' 5 consecutive years", CYAN),
     ("IIP Selection", "1 of 14 among 700+ candidates - International Institute of Physics", GREEN),
 ]
 
@@ -207,8 +207,8 @@ def card_now():
                              "Leadership & entrepreneurship"]),
         ("exploring", SECTION, ["AI applications in accounting automation",
                                 "Behavioral economics x product design"]),
-        ("open_to", GOLD, ["Builder Roles · AI/ML Roles",
-                           "Open Source collaboration · Founder & investor conversations"]),
+        ("open_to", GOLD, ["Builder Roles | AI/ML Roles",
+                           "Open Source collaboration | Founder & investor conversations"]),
     ]
     line_h = 18
     total = sum(1 + len(b[2]) for b in blocks)
