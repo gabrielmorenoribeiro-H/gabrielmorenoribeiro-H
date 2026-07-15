@@ -26,40 +26,27 @@ BG2 = "#111722"
 FRAME = "#30363d"
 MUTED = "#7d8590"
 INK = "#c9d1d9"
-KEY = "#ffa657"      # orange keys (matches Andrew)
-SECTION = "#58a6ff"  # blue section headers
+KEY = "#ffa657"
+SECTION = "#58a6ff"
 GREEN = "#3fb950"
 ACCENT = "#22d3ee"
 
-# ===========================================================================
-#  EDIT THIS  -- your info panel. It re-lays-out automatically; if it gets too
-#  tall for the card, bump H above (and the width= in your profile README).
-#  The username in the header is HOST below.
-#
-#  row types:
-#    ("host",)              -> "you@github" header + rule
-#    ("kv", key, value)     -> orange key + light value
-#    ("sec", title)         -> blue "— title —" section rule
-#    ("bul", text)          -> green dot + light bullet
-#    ("gap",)               -> a little vertical space
-# ===========================================================================
-HOST = "gabriel"   # shown as  gabriel@github  in the header
+HOST = "gabriel"
 
 ROWS = [
     ("host",),
     ("kv", "Now", "Co-Founder & CEO @ HIBEEX"),
-    ("kv", "Site", "hibeex.com.br"),
-    ("kv", "Focus", "Full Stack · AI/LLM · B2B FinTech"),
-    ("kv", "Based", "Salvador, Bahia, Brazil"),
-    ("kv", "Edu", "LALA — Leadership Academy"),
-    ("kv", "Langs", "PT (native) · EN (fluent) · ES"),
+    ("kv", "Focus", "Full Stack Builder · AI/LLM · B2B FinTech"),
+    ("kv", "Based", "Salvador, BA, Brazil / Sao Paulo, SP, Brazil"),
+    ("kv", "Fellow", "LALA · Fundacao Estudar (PREP)"),
+    ("kv", "Langs", "PT (native) · EN (advanced) · ES (basic-intermediate)"),
     ("gap",),
     ("sec", "Mission"),
-    ("bul", "Dar a toda PME um CFO de multinacional"),
-    ("bul", "AI cash-flow intelligence sobre ERPs"),
+    ("bul", "Solve structural problems in Brazil using"),
+    ("bul", "cutting-edge technology (currently AI)"),
     ("gap",),
     ("sec", "Next"),
-    ("bul", "Pitching Silicon Valley VCs — Oct 2026"),
+    ("bul", "Pitching Silicon Valley VCs · Oct 2026"),
 ]
 
 
@@ -68,7 +55,6 @@ def esc(s):
 
 
 def rise(inner, i):
-    """fade + slight upward slide, staggered by row index; freezes visible."""
     if STATIC:
         return f"<g>{inner}</g>"
     delay = 0.15 + i * 0.06
@@ -110,7 +96,7 @@ for i, row in enumerate(ROWS):
     elif kind == "sec":
         title = esc(row[1])
         inner = (f'<text x="{KEY_X}" y="{y:.1f}" fill="{SECTION}" font-size="12.5" font-weight="700">'
-                 f'&#8212; {title}</text>'
+                 f'{title}</text>'
                  f'<line x1="{KEY_X + 12 + len(row[1])*8}" y1="{y-4:.1f}" x2="{W-PAD}" y2="{y-4:.1f}" '
                  f'stroke="{FRAME}" stroke-opacity="0.8"/>')
     elif kind == "kv":

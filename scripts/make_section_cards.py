@@ -32,15 +32,15 @@ def card_hibeex():
         "HIBEEX is a B2B financial intelligence platform: it connects to the ERPs "
         "Brazilian SMBs already use (Omie, Conta Azul, Nibo, VHSYS), syncs their "
         "financial data automatically, and turns it into AI-powered cash-flow "
-        "analysis and executive insight — replacing manual spreadsheets.",
-        "As founding engineer I architected and shipped the full-stack MVP "
+        "analysis and executive insight - replacing manual spreadsheets.",
+        "As founding builder I architected and shipped the full-stack MVP "
         "end-to-end: ERP-to-database sync pipelines, transaction reconciliation "
         "and categorization engines, multi-tenant auth with RBAC, REST API "
         "layers, automated ingestion jobs, Claude-powered executive narrative "
         "generation, and interactive KPI dashboards.",
-        "Today HIBEEX serves major accounting operations — clients managing 600+ "
+        "Today HIBEEX serves major accounting operations - clients managing 600+ "
         "accounting bases, including the 6th largest Sistema Dominio user in "
-        "Brazil — under a 12% revenue-share partnership with VHSYS (~20,000 "
+        "Brazil - under a 12% revenue-share partnership with VHSYS (~20,000 "
         "clients).",
     ]
     lines = []
@@ -67,7 +67,7 @@ def card_hibeex():
 def card_skills():
     prompt = "gabriel@github: ~$ ./skills --ai"
     rows = [
-        ("LLM Product Engineering", 95, "Claude API integration, narrative generation in prod"),
+        ("LLM Product Building", 95, "Claude API integration, narrative generation in prod"),
         ("AI Data Pipelines", 90, "Real-time ERP ingestion with AI classification at scale"),
         ("Personalization Algorithms", 85, "Adaptive learning-path engines"),
         ("Scientific Computing", 85, "SciPy differential equations, MATLAB modeling"),
@@ -99,24 +99,24 @@ def card_skills():
 
 # ============================================================ VENTURES
 VENTURES = [
-    ("GSAT Education", "Adaptive SAT prep EdTech", "Oct 2025 — Present", GREEN,
+    ("GSAT Education", "Adaptive SAT prep EdTech", "Oct 2025 - Present", GREEN,
      ["3,200+ annotated-solutions DB + proprietary personalization algorithm",
       "71 students mentored; 53 improved from ~900 to 1300+ SAT",
       "R$50K+ revenue bootstrapped, 100% reinvested",
       "Intl partnerships: Uzbek tech firm, CT Nicolas Santos, CSA Authority"]),
-    ("Projeto Candela", "Physics lab kits for public schools", "Jun 2022 — Present", GOLD,
+    ("Projeto Candela", "Physics lab kits for public schools", "Jun 2022 - Present", GOLD,
      ["Kits + QR video lessons in 28 schools · 3,392 students (BA & CE)",
       "Grades up 40%; physics failure rate cut 30% -> 10% in 6 months",
       "Funded by PIBIC Jr/UFBA grant + R$8K crowdfunding · pitched at 60+ schools"]),
-    ("FinTech Savings RCT", "Behavioral economics research", "Jan 2025 — Apr 2026", SECTION,
+    ("FinTech Savings RCT", "Behavioral economics research", "Jan 2025 - Apr 2026", SECTION,
      ["Randomized Controlled Trial, n=208 public-school students",
       "+130% total savings in treatment group",
       "Supervised by Dr. Aaron Litvin (Ph.D., Harvard) · policy recs for BNCC"]),
-    ("Chemical Kinetics", "Computational modeling — Instituto Principia", "Jun 2023 — Jun 2025", RED,
+    ("Chemical Kinetics", "Computational modeling - Instituto Principia", "Jun 2023 - Jun 2025", RED,
      ["Steady-State Approximation of complex mechanisms · 59-page thesis",
       "97% simulation accuracy (Haber-Bosch, stratospheric ozone)",
       "Under Dr. Juliano Bonacin (Ph.D., USP)"]),
-    ("Refurbished Electronics", "E-commerce venture", "Jan 2021 — Dec 2024", MUTED,
+    ("Refurbished Electronics", "E-commerce venture", "Jan 2021 - Dec 2024", MUTED,
      ["Imported, repaired & shipped hardware to 150+ clients in 21 BR states",
       "~USD 7,000 revenue; 75% reinvested in education"]),
 ]
@@ -135,7 +135,7 @@ def card_ventures():
         name_w = len(name) * 8.6 + 24
         inner = (text(BODY_X, y, "$ ", MUTED, size=13)
                  + text(BODY_X + 16, y, esc(name), col, size=13.5, weight=700)
-                 + text(BODY_X + 16 + name_w, y, "— " + esc(sub), MUTED, size=12)
+                 + text(BODY_X + 16 + name_w, y, "- " + esc(sub), MUTED, size=12)
                  + text(W - PAD, y, esc(when), MUTED, size=11.5, anchor="end"))
         parts.append(rise(inner, i)); i += 1
         y += line_h
@@ -151,14 +151,14 @@ def card_ventures():
 # ============================================================ HONORS
 HONORS = [
     ("39 Olympiad Medals (19 Gold)", "49 science olympiads · 7,000+ study hours · 2 international awards", GOLD),
-    ("IChO National Finalist", "International Chemistry Olympiad — Brazilian selection", GREEN),
-    ("Gold — National Science Olympiad", "+ Gold: ONNEQ, OBB, OMEM, OQJ, 2x ONEE, 2x Math Sans Frontieres Intl", GOLD),
+    ("IChO National Finalist", "International Chemistry Olympiad - Brazilian selection", GREEN),
+    ("Gold - National Science Olympiad", "+ Gold: ONNEQ, OBB, OMEM, OQJ, 2x ONEE, 2x Math Sans Frontieres Intl", GOLD),
     ("SAT 1510/1600", "Math 780 (98th percentile global) · Top 1% in Brazil", GREEN),
     ("R$1.5M+ Merit Scholarships", "Full rides at Brazil's top 4 prep schools", CYAN),
-    ("PREP Program — Fundacao Estudar", "1 of ~70 fellows from 10,000+ candidates (0.7% acceptance)", SECTION),
+    ("PREP Program - Fundacao Estudar", "1 of ~70 fellows from 10,000+ candidates (0.7% acceptance)", SECTION),
     ("Canastra Ventures AI Residency", "R$800K pre-seed · 1 of 6 startups (2.5%) · youngest founding team ever", RED),
     ("Colegio Militar de Salvador", "Admitted at age 10 (1 of 30 / 2,000+) · 'Alamar' 5 consecutive years", CYAN),
-    ("IIP Selection", "1 of 14 among 700+ candidates — International Institute of Physics", GREEN),
+    ("IIP Selection", "1 of 14 among 700+ candidates - International Institute of Physics", GREEN),
 ]
 
 
@@ -181,9 +181,9 @@ def card_honors():
 def card_certifications():
     prompt = "gabriel@github: ~$ ls certifications/"
     rows = [
-        ("AWS", "AWS Activate — USD 10,000 active credits", GOLD),
-        ("Calculus", "AP-equivalent — Schoolhouse (recognized by MIT, CalTech, Columbia)", CYAN),
-        ("Chemistry", "AP-equivalent — Schoolhouse by Khan Academy", GREEN),
+        ("AWS", "AWS Activate - USD 10,000 active credits", GOLD),
+        ("Calculus", "AP-equivalent - Schoolhouse (recognized by MIT, CalTech, Columbia)", CYAN),
+        ("Chemistry", "AP-equivalent - Schoolhouse by Khan Academy", GREEN),
         ("English", "Duolingo English Test 125/160 (CEFR B2)", SECTION),
     ]
     h = 30 + 30 + len(rows) * LH + 18
@@ -207,7 +207,7 @@ def card_now():
                              "Leadership & entrepreneurship"]),
         ("exploring", SECTION, ["AI applications in accounting automation",
                                 "Behavioral economics x product design"]),
-        ("open_to", GOLD, ["Software Engineering Internships · AI/ML Roles",
+        ("open_to", GOLD, ["Builder Roles · AI/ML Roles",
                            "Open Source collaboration · Founder & investor conversations"]),
     ]
     line_h = 18
